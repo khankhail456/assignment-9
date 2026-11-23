@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf0f7;
+    padding: 25px 15px;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #174b7a;
+    margin-bottom: 25px;
+    font-size: 27px;
+}
+
+h3 {
+    color: #174b7a;
+    margin: 20px 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1769aa;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 22px;
+    background: #1769aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104b7d;
+}
+
+.result {
+    display: none;
+    margin-top: 25px;
+    padding: 20px;
+    background: #f4f8fc;
+    border-radius: 10px;
+    border: 1px solid #d4e1ef;
+}
+
+.result h2 {
+    text-align: center;
+    color: #174b7a;
+    margin-bottom: 20px;
+}
+
+.result h3 {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.detail {
+    background: white;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border-left: 4px solid #1769aa;
+}
+
+.pass {
+    color: green;
+    font-weight: bold;
+}
+
+.fail {
+    color: red;
+    font-weight: bold;
+}
+
+.status {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 18px;
+    padding: 12px;
+    background: white;
+    border-radius: 8px;
+}
+
+@media(max-width: 500px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
